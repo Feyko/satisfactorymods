@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "0.0.5",
+	"SemVersion": "0.0.5",
+	"FriendlyName": "Wireless Power",
+	"Description": "This mod adds wireless power transportation, from low to high range!",
+	"Category": "Modding",
+	"CreatedBy": "Feyko",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.0.0"
+		}
+	]
+}
