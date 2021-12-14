@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0.5",
+	"SemVersion": "2.0.5",
+	"FriendlyName": "Stack Overflow",
+	"Description": "Makes all items stack to 500 ! Or much, much more",
+	"Category": "Modding",
+	"CreatedBy": "Feyko",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.2.0"
+		}
+	],
+	"Modules": [
+		{
+			"Name": "StackOverload",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
