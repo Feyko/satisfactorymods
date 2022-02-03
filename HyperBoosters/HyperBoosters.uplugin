@@ -1,10 +1,10 @@
 {
 	"FileVersion": 3,
-	"Version": 0,
-	"VersionName": "0.0.7",
-	"SemVersion": "0.0.7",
-	"FriendlyName": "Wireless Power",
-	"Description": "This mod adds wireless power transportation, from low to high range!",
+	"Version": 1,
+	"VersionName": "2.1.1",
+	"SemVersion": "2.1.1",
+	"FriendlyName": "Hyper Boosters",
+	"Description": "Adds 'Hyper Boosters', Hypertube entrances that boost you very fast",
 	"Category": "Modding",
 	"CreatedBy": "Feyko",
 	"CreatedByURL": "",
@@ -12,14 +12,14 @@
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
+
 	"Plugins": [
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.2.0"
+			"SemVersion": "^3.0.0"
 		}
 	]
 }
