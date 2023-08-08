@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "2.0.5",
-	"SemVersion": "2.0.5",
+	"VersionName": "2.0.6",
+	"SemVersion": "2.0.6",
 	"FriendlyName": "Stack Overflow",
 	"Description": "Makes all items stack to 500 ! Or much, much more",
 	"Category": "Modding",
@@ -18,7 +18,7 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.2.0"
+			"SemVersion": "^3.5.0"
 		}
 	],
 	"Modules": [

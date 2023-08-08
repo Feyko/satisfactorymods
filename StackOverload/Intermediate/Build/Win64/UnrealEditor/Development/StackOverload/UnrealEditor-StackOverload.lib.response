@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-StackOverload.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Code\SF\SML_Dev\SatisfactoryModLoader\Intermediate\Build\Win64\FactoryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"C:\Code\SF\SML_Dev\SatisfactoryModLoader\Mods\StackOverload\Intermediate\Build\Win64\UnrealEditor\Development\StackOverload\StackOverloadModule.cpp.obj"
+"C:\Code\SF\SML_Dev\SatisfactoryModLoader\Mods\StackOverload\Intermediate\Build\Win64\UnrealEditor\Development\StackOverload\Default.rc2.res"
+/OUT:"C:\Code\SF\SML_Dev\SatisfactoryModLoader\Mods\StackOverload\Intermediate\Build\Win64\UnrealEditor\Development\StackOverload\UnrealEditor-StackOverload.lib"
