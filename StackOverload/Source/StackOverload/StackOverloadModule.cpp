@@ -2,10 +2,11 @@
 
 #include <string>
 
-#include "SML/Public/Patching/NativeHookManager.h"
+#include "Patching/NativeHookManager.h"
 #include "FactoryGame/Public/Equipment/FGWeapon.h"
 #include "GameFramework/GameState.h"
 #include "FGCharacterPlayer.h"
+//#include "Configuration/ConfigManager.h"
 #include "Configuration/ConfigManager.h"
 
 
@@ -54,7 +55,6 @@ void FStackOverloadModule::StartupModule() {
      int multiplier = config->GetNumberField("Multiplier");
      // FString ListType = config->GetStringField("List Type");
      // array = config->GetArrayField("Item List");
-#if !WITH_EDITOR
      // SUBSCRIBE_METHOD(UFGItemDescriptor::GetStackSizeConverted, [=](auto& scope, TSubclassOf<UFGItemDescriptor> item) {
      //     if (item->IsValidLowLevel())
      //     {
@@ -71,6 +71,7 @@ void FStackOverloadModule::StartupModule() {
      //       }
      //     }
      // });
+#if !WITH_EDITOR
      SUBSCRIBE_METHOD(UFGItemDescriptor::GetStackSize, [=](auto& scope, TSubclassOf<UFGItemDescriptor> item) {
               if (item->IsValidLowLevel())
               {
