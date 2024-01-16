@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "2.1.1",
-	"SemVersion": "2.1.1",
+	"Version": 3,
+	"VersionName": "3.0.0",
+	"SemVersion": "3.0.0",
 	"FriendlyName": "Hyper Boosters",
 	"Description": "Adds 'Hyper Boosters', Hypertube entrances that boost you very fast",
 	"Category": "Modding",
@@ -14,12 +14,12 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-
 	"Plugins": [
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.0.0"
+			"SemVersion": "^3.7.0"
 		}
-	]
+	],
+	"Installed": false
 }
